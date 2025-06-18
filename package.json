@@ -2,7 +2,7 @@
     "name": "@purinton/clockbot",
     "type": "module",
     "version": "1.0.0",
-    "description": "A modern Discord app built with Node.js, based on the purinton/discord foundation.",
+    "description": "A modern, multi-language Discord app for displaying the current time and sunrise/sunset, with extensible commands and event handlers.",
     "main": "clockbot.mjs",
     "scripts": {
         "start": "node clockbot.mjs",
@@ -13,8 +13,20 @@
         "url": "git+https://github.com/purinton/clockbot.git"
     },
     "keywords": [
-        "clockbot",
-        "nodejs"
+        "discord",
+        "discord-app",
+        "time",
+        "sunrise",
+        "sunset",
+        "clock",
+        "timezone",
+        "localization",
+        "multi-language",
+        "openweathermap",
+        "presence",
+        "commands",
+        "events",
+        "purinton"
     ],
     "author": "Russell Purinton <russell@purinton.us>",
     "license": "MIT",
