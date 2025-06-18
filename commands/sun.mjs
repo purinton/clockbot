@@ -13,11 +13,18 @@ export default async function ({ log, msg }, interaction, {
       return;
     }
     const data = await getSunFn(latitude, longitude);
-    const sunriseStr = moment.unix(data.sunrise).format('HH:mm');
-    const sunsetStr = moment.unix(data.sunset).format('HH:mm');
-    const sunriseDiscord = `<t:${data.sunrise}:R>`;
-    const sunsetDiscord = `<t:${data.sunset}:R>`;
-    const daylightSeconds = data.sunset - data.sunrise;
+    if (!data) {
+      log.error('No sun data returned.');
+      const errorMsg = msg('error', 'Sorry, an error occured.');
+      await interaction.reply(errorMsg);
+      return;
+    }
+    // data: {sunriseUtc, sunsetUtc, sunriseLocal, sunsetLocal, offset}
+    const sunriseStr = moment.unix(data.sunriseLocal).format('HH:mm');
+    const sunsetStr = moment.unix(data.sunsetLocal).format('HH:mm');
+    const sunriseDiscord = `<t:${data.sunriseUtc}:R>`;
+    const sunsetDiscord = `<t:${data.sunsetUtc}:R>`;
+    const daylightSeconds = data.sunsetLocal - data.sunriseLocal;
     const daylightHours = Math.floor(daylightSeconds / 3600);
     const daylightMinutes = Math.floor((daylightSeconds % 3600) / 60);
     const daylightStr = `${daylightHours}h ${daylightMinutes}m`;

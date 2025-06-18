@@ -18,8 +18,11 @@ describe('sun command handler', () => {
       return fallback;
     });
     mockGetSun = jest.fn().mockResolvedValue({
-      sunrise: 1717401600, // 2024-06-03T04:00:00Z
-      sunset: 1717452000   // 2024-06-03T18:00:00Z
+      sunriseUtc: 1717401600, // 2024-06-03T04:00:00Z
+      sunsetUtc: 1717452000,  // 2024-06-03T18:00:00Z
+      sunriseLocal: 1717401600, // local epoch seconds
+      sunsetLocal: 1717452000,  // local epoch seconds
+      offset: 0
     });
   });
 
@@ -27,7 +30,7 @@ describe('sun command handler', () => {
     await sunHandler(
       { log: mockLogger, msg: mockMsg },
       interaction,
-      { timezone: 'UTC', latitude: '1', longitude: '2', getSunFn: mockGetSun }
+      { latitude: '1', longitude: '2', getSunFn: mockGetSun }
     );
     expect(mockGetSun).toHaveBeenCalledWith('1', '2');
     expect(interaction.reply).toHaveBeenCalledWith(
@@ -46,17 +49,28 @@ describe('sun command handler', () => {
     await sunHandler(
       { log: mockLogger, msg: mockMsg },
       interaction,
-      { timezone: 'UTC', latitude: '1', longitude: '2', getSunFn: mockGetSun }
+      { latitude: '1', longitude: '2', getSunFn: mockGetSun }
     );
     expect(interaction.reply).toHaveBeenCalledWith('Sorry, an error occured.');
     expect(mockLogger.error).toHaveBeenCalledWith('Failed to respond to /sun:', expect.any(Error));
+  });
+
+  test('replies with error if getSun returns null', async () => {
+    mockGetSun.mockResolvedValueOnce(null);
+    await sunHandler(
+      { log: mockLogger, msg: mockMsg },
+      interaction,
+      { latitude: '1', longitude: '2', getSunFn: mockGetSun }
+    );
+    expect(mockLogger.error).toHaveBeenCalledWith('No sun data returned.');
+    expect(interaction.reply).toHaveBeenCalledWith('Sorry, an error occured.');
   });
 
   test('does nothing if location is not configured', async () => {
     await sunHandler(
       { log: mockLogger, msg: mockMsg },
       interaction,
-      { timezone: 'UTC', latitude: '', longitude: '', getSunFn: mockGetSun }
+      { latitude: '', longitude: '', getSunFn: mockGetSun }
     );
     expect(mockLogger.error).toHaveBeenCalledWith('Location not configured.');
     expect(interaction.reply).not.toHaveBeenCalled();
