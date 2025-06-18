@@ -152,7 +152,7 @@ For help, questions, or to chat with the author and community, visit:
 
 ## Links
 
-- [GitHub (Template)](https://github.com/purinton/clockbot)
+- [GitHub (Project)](https://github.com/purinton/clockbot)
 - [GitHub (Org)](https://github.com/purinton)
 - [GitHub (Personal)](https://github.com/rpurinton)
 - [Discord](https://discord.gg/QSBxQnX7PF)
