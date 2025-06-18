@@ -1,7 +1,7 @@
 {
-    "help": "**Bantuan Clockbot**\n\nClockbot menampilkan tanggal dan waktu saat ini sebagai statusnya.\n\n**Perintah:**\n\n- `!time` — Tampilkan tanggal dan waktu saat ini di chat.\n- `!sun` — Cari waktu matahari terbit dan terbenam untuk lokasi Anda.\n\n**Kode sumber & dukungan:**\n<https://github.com/rpurinton/clockbots>\n",
-    "sunrise": "Matahari terbit",
-    "sunset": "Matahari terbenam",
-    "daylight": "Cahaya siang",
-    "sun_error": "Gagal mengambil waktu matahari terbit/terbenam :(..."
+    "help": "**Bantuan Clockbot**\n\nClockbot menampilkan tanggal dan waktu saat ini sebagai status/presensi.\n\n**Perintah:**\n\n- `!time` — Tampilkan tanggal dan waktu saat ini di obrolan.\n- `!sun` — Cari waktu terbit dan terbenam matahari saat ini untuk lokasi Anda.\n\n**Kode sumber & dukungan:**\n<https://github.com/rpurinton/clockbots>\n",
+    "sunrise": "Terbit",
+    "sunset": "Terbenam",
+    "daylight": "Cahaya Hari",
+    "error": "Maaf, terjadi kesalahan."
 }

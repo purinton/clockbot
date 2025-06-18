@@ -1,7 +1,7 @@
 {
-    "help": "**Clockbot Hjælp**\n\nClockbot viser den aktuelle dato og tid som sin status.\n\n**Kommandoer:**\n\n- `!time` — Vis den aktuelle dato og tid i chatten.\n- `!sun` — Slå de aktuelle tider for solopgang og solnedgang op for din placering.\n\n**Kildekode & support:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Hjælp**\n\nClockbot viser den aktuelle dato og tid som sin tilstedeværelse/status.\n\n**Kommandoer:**\n\n- `!time` — Vis den aktuelle dato og tid i chatten.\n- `!sun` — Se de aktuelle solopgangs- og solnedgangstider for dit sted.\n\n**Kildekode & support:**\n<https://github.com/rpurinton/clockbots>\n",
     "sunrise": "Solopgang",
     "sunset": "Solnedgang",
     "daylight": "Dagslys",
-    "sun_error": "Kunne ikke hente tider for solopgang/solnedgang :(..."
+    "error": "Beklager, der opstod en fejl."
 }

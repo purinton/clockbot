@@ -1,7 +1,7 @@
 {
-    "help": "**Clockbot súgó**\n\nA Clockbot az aktuális dátumot és időt jeleníti meg állapotként.\n\n**Parancsok:**\n\n- `!time` — Megjeleníti az aktuális dátumot és időt a csevegésben.\n- `!sun` — Megkeresi a napkelte és napnyugta aktuális időpontját a helyedhez.\n\n**Forráskód és támogatás:**\n<https://github.com/rpurinton/clockbots>\n",
-    "sunrise": "Napkelte",
+    "help": "**ÓraBot Súgó**\n\nAz ÓraBot a jelenlegi dátumot és időt mutatja a státuszában.\n\n**Parancsok:**\n\n- `!time` — Mutasd meg a jelenlegi dátumot és időt a csevegésben.\n- `!sun` — Nézd meg a jelenlegi napfelkeltét és napnyugtát a helyszínedre.\n\n**Forráskód & támogatás:**\n<https://github.com/rpurinton/clockbots>\n",
+    "sunrise": "Napfelkelte",
     "sunset": "Napnyugta",
-    "daylight": "Nappali fény",
-    "sun_error": "Nem sikerült lekérni a napkelte/napnyugta időpontját :(..."
+    "daylight": "Nappali világosság",
+    "error": "Sajnálom, hiba történt."
 }

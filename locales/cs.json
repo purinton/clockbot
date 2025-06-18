@@ -1,7 +1,7 @@
 {
-    "help": "**Nápověda Clockbot**\n\nClockbot zobrazuje aktuální datum a čas jako svůj stav.\n\n**Příkazy:**\n\n- `!time` — Zobrazí aktuální datum a čas v chatu.\n- `!sun` — Zobrazí aktuální časy východu a západu slunce pro vaši polohu.\n\n**Zdrojový kód a podpora:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Nápověda**\n\nClockbot zobrazuje aktuální datum a čas jako svůj stav/přítomnost.\n\n**Příkazy:**\n\n- `!time` — Zobrazit aktuální datum a čas v chatu.\n- `!sun` — Zjistit aktuální časy východu a západu slunce pro vaši lokalitu.\n\n**Zdrojový kód a podpora:**\n<https://github.com/rpurinton/clockbots>\n",
     "sunrise": "Východ slunce",
     "sunset": "Západ slunce",
-    "daylight": "Denní světlo",
-    "sun_error": "Nepodařilo se získat časy východu/západu slunce :(..."
+    "daylight": "Den",
+    "error": "Omlouváme se, došlo k chybě."
 }

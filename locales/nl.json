@@ -1,7 +1,7 @@
 {
-    "help": "**Clockbot Help**\n\nClockbot toont de huidige datum en tijd als zijn status.\n\n**Commando's:**\n\n- `!time` — Toon de huidige datum en tijd in de chat.\n- `!sun` — Zoek de huidige zonsopgang- en zonsondergangtijden voor jouw locatie op.\n\n**Broncode & ondersteuning:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Help**\n\nClockbot toont de huidige datum en tijd als zijn aanwezigheid/status.\n\n**Commando's:**\n\n- `!time` — Toon de huidige datum en tijd in de chat.\n- `!sun` — Zoek de huidige zonsopgang en zonsondergang tijden voor jouw locatie.\n\n**Broncode & ondersteuning:**\n<https://github.com/rpurinton/clockbots>\n",
     "sunrise": "Zonsopgang",
     "sunset": "Zonsondergang",
     "daylight": "Daglicht",
-    "sun_error": "Ophalen van zonsopgang/zonsondergang mislukt :(..."
+    "error": "Sorry, er is een fout opgetreden."
 }

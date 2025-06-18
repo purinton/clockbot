@@ -1,7 +1,7 @@
 {
-    "help": "**Aide Clockbot**\n\nClockbot affiche la date et l'heure actuelles comme statut.\n\n**Commandes :**\n\n- `!time` — Affiche la date et l'heure actuelles dans le chat.\n- `!sun` — Recherche les heures de lever et coucher du soleil pour votre emplacement.\n\n**Code source & support :**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Aide de Clockbot**\n\nClockbot affiche la date et l'heure actuelles comme sa présence/statut.\n\n**Commandes :**\n\n- `!time` — Afficher la date et l'heure actuelles dans le chat.\n- `!sun` — Rechercher les heures de lever et de coucher du soleil pour votre emplacement.\n\n**Code source & support :**\n<https://github.com/rpurinton/clockbots>\n",
     "sunrise": "Lever du soleil",
     "sunset": "Coucher du soleil",
     "daylight": "Lumière du jour",
-    "sun_error": "Échec de la récupération des heures de lever/coucher du soleil :(..."
+    "error": "Désolé, une erreur s'est produite."
 }

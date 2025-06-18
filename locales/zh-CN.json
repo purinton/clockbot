@@ -1,7 +1,7 @@
 {
-    "help": "**Clockbot 帮助**\n\nClockbot 会将当前日期和时间显示为其状态。\n\n**命令：**\n\n- `!time` — 在聊天中显示当前日期和时间。\n- `!sun` — 查询你所在位置的日出和日落时间。\n\n**源代码与支持：**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**时钟机器人帮助**\n\n时钟机器人将当前日期和时间显示为其状态。\n\n**命令：**\n\n- `!time` — 在聊天中显示当前日期和时间。\n- `!sun` — 查找您所在位置的当前日出和日落时间。\n\n**源代码和支持：**\n<https://github.com/rpurinton/clockbots>\n",
     "sunrise": "日出",
     "sunset": "日落",
-    "daylight": "白天",
-    "sun_error": "获取日出/日落时间失败 :(..."
+    "daylight": "日光",
+    "error": "抱歉，发生了错误。"
 }

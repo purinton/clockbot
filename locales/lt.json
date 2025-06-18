@@ -1,7 +1,7 @@
 {
-    "help": "**Clockbot pagalba**\n\nClockbot rodo dabartinę datą ir laiką kaip savo būseną.\n\n**Komandos:**\n\n- `!time` — Rodyti dabartinę datą ir laiką pokalbyje.\n- `!sun` — Ieškoti dabartinio saulėtekio ir saulėlydžio laiko jūsų vietovėje.\n\n**Pirminis kodas ir palaikymas:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Pagalba**\n\nClockbot rodo dabartinę datą ir laiką kaip savo buvimo/statuso informaciją.\n\n**Komandos:**\n\n- `!time` — Rodyti dabartinę datą ir laiką pokalbyje.\n- `!sun` — Ieškoti dabartinių saulėtekio ir saulėlydžio laikų jūsų vietovėje.\n\n**Šaltinio kodas ir pagalba:**\n<https://github.com/rpurinton/clockbots>\n",
     "sunrise": "Saulėtekis",
     "sunset": "Saulėlydis",
-    "daylight": "Dienos šviesa",
-    "sun_error": "Nepavyko gauti saulėtekio/saulėlydžio laiko :(..."
+    "daylight": "Šviesusis laikas",
+    "error": "Atsiprašome, įvyko klaida."
 }
