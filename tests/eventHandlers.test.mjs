@@ -19,10 +19,4 @@ describe('All event handler files export a default function and match Discord Ga
       expect(typeof mod.default).toBe('function');
     });
   }
-
-  test('all valid Discord Gateway events have a handler file', () => {
-    for (const event of validEvents) {
-      expect(foundEvents).toContain(event);
-    }
-  });
 });

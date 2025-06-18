@@ -3,5 +3,5 @@
     "sunrise": "Sunrise",
     "sunset": "Sunset",
     "daylight": "Daylight",
-    "sun_error": "Failed to fetch sunrise/sunset times :(..."
+    "error": "Sorry, an error occured."
 }

@@ -1,11 +1,22 @@
 // events/messageCreate.mjs
-export default async function ({ client, log, msg }, message) {
+export default async function ({ log, msg }, message) {
     log.debug('messageCreate', { id: message.id });
+    if (message.author.bot) return;
     const locale = message.guild?.preferredLocale || 'en-US';
-    if (message.author.id === client.user.id) return;
-    if (message.content === '!help') {
-        const response = msg(locale, 'help', 'This is the help text.');
-        await message.reply(response);
-        log.debug('!help Response', { response });
+    if (message.content === '!time') {
+        const handler = (await import('../commands/time.mjs')).default;
+        await handler({
+            log,
+            msg: (key, defaultMsg) => msg(locale, key, defaultMsg, log)
+        }, message);
+        return;
+    }
+    if (message.content === '!sun') {
+        const handler = (await import('../commands/sun.mjs')).default;
+        await handler({
+            log,
+            msg: (key, defaultMsg) => msg(locale, key, defaultMsg, log)
+        }, message);
+        return;
     }
 }
