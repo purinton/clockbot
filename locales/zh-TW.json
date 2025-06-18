@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot 幫助**\n\nClockbot 會顯示當前的日期和時間作為其狀態。\n\n**指令：**\n\n- `!time` — 在聊天中顯示當前的日期和時間。\n- `!sun` — 查詢您所在位置的當前日出和日落時間。\n\n**源代碼與支援：**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot 幫助**\n\nClockbot 會顯示當前的日期和時間作為其狀態。\n\n**指令：**\n\n- `!time` — 在聊天中顯示當前的日期和時間。\n- `!sun` — 查詢您所在位置的當前日出和日落時間。\n\n**源代碼與支援：**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "日出",
     "sunset": "日落",
     "daylight": "日光",

@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot Pagalba**\n\nClockbot rodo dabartinę datą ir laiką kaip savo buvimo/statuso informaciją.\n\n**Komandos:**\n\n- `!time` — Rodyti dabartinę datą ir laiką pokalbyje.\n- `!sun` — Ieškoti dabartinių saulėtekio ir saulėlydžio laikų jūsų vietovėje.\n\n**Šaltinio kodas ir pagalba:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Pagalba**\n\nClockbot rodo dabartinę datą ir laiką kaip savo buvimo/statuso informaciją.\n\n**Komandos:**\n\n- `!time` — Rodyti dabartinę datą ir laiką pokalbyje.\n- `!sun` — Ieškoti dabartinių saulėtekio ir saulėlydžio laikų jūsų vietovėje.\n\n**Šaltinio kodas ir pagalba:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Saulėtekis",
     "sunset": "Saulėlydis",
     "daylight": "Šviesusis laikas",

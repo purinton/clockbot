@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot Help**\n\nClockbot displays the current date and time as its presence/status.\n\n**Commands:**\n\n- `!time` — Show the current date and time in chat.\n- `!sun` — Look up the current sunrise and sunset times for your location.\n\n**Source code & support:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Help**\n\nClockbot displays the current date and time as its presence/status.\n\n**Commands:**\n\n- `!time` — Show the current date and time in chat.\n- `!sun` — Look up the current sunrise and sunset times for your location.\n\n**Source code & support:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Sunrise",
     "sunset": "Sunset",
     "daylight": "Daylight",

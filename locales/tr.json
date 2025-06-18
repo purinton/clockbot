@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot Yardım**\n\nClockbot, mevcut tarih ve saati durumu/varlığı olarak gösterir.\n\n**Komutlar:**\n\n- `!time` — Sohbette mevcut tarih ve saati göster.\n- `!sun` — Konumunuz için mevcut gün doğumu ve gün batımı saatlerini kontrol et.\n\n**Kaynak kodu & destek:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Yardım**\n\nClockbot, mevcut tarih ve saati durumu/varlığı olarak gösterir.\n\n**Komutlar:**\n\n- `!time` — Sohbette mevcut tarih ve saati göster.\n- `!sun` — Konumunuz için mevcut gün doğumu ve gün batımı saatlerini kontrol et.\n\n**Kaynak kodu & destek:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Gün Doğumu",
     "sunset": "Gün Batımı",
     "daylight": "Gündüz",

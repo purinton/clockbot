@@ -1,5 +1,5 @@
 {
-    "help": "**Hỗ trợ Clockbot**\n\nClockbot hiển thị ngày và giờ hiện tại dưới dạng trạng thái.\n\n**Lệnh:**\n\n- `!time` — Hiển thị ngày và giờ hiện tại trong trò chuyện.\n- `!sun` — Tra cứu thời gian mặt trời mọc và lặn hiện tại cho vị trí của bạn.\n\n**Mã nguồn & hỗ trợ:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Hỗ trợ Clockbot**\n\nClockbot hiển thị ngày và giờ hiện tại dưới dạng trạng thái.\n\n**Lệnh:**\n\n- `!time` — Hiển thị ngày và giờ hiện tại trong trò chuyện.\n- `!sun` — Tra cứu thời gian mặt trời mọc và lặn hiện tại cho vị trí của bạn.\n\n**Mã nguồn & hỗ trợ:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Bình minh",
     "sunset": "Hoàng hôn",
     "daylight": "Ánh sáng ban ngày",

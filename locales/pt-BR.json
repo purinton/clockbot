@@ -1,5 +1,5 @@
 {
-    "help": "**Ajuda do Clockbot**\n\nClockbot exibe a data e hora atuais como sua presença/status.\n\n**Comandos:**\n\n- `!time` — Mostra a data e hora atuais no chat.\n- `!sun` — Procura os horários atuais do nascer e pôr do sol para sua localização.\n\n**Código fonte & suporte:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Ajuda do Clockbot**\n\nClockbot exibe a data e hora atuais como sua presença/status.\n\n**Comandos:**\n\n- `!time` — Mostra a data e hora atuais no chat.\n- `!sun` — Procura os horários atuais do nascer e pôr do sol para sua localização.\n\n**Código fonte & suporte:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Nascer do sol",
     "sunset": "Pôr do sol",
     "daylight": "Luz do dia",

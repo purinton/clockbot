@@ -1,5 +1,5 @@
 {
-    "help": "**ÓraBot Súgó**\n\nAz ÓraBot a jelenlegi dátumot és időt mutatja a státuszában.\n\n**Parancsok:**\n\n- `!time` — Mutasd meg a jelenlegi dátumot és időt a csevegésben.\n- `!sun` — Nézd meg a jelenlegi napfelkeltét és napnyugtát a helyszínedre.\n\n**Forráskód & támogatás:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**ÓraBot Súgó**\n\nAz ÓraBot a jelenlegi dátumot és időt mutatja a státuszában.\n\n**Parancsok:**\n\n- `!time` — Mutasd meg a jelenlegi dátumot és időt a csevegésben.\n- `!sun` — Nézd meg a jelenlegi napfelkeltét és napnyugtát a helyszínedre.\n\n**Forráskód & támogatás:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Napfelkelte",
     "sunset": "Napnyugta",
     "daylight": "Nappali világosság",

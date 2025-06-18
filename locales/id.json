@@ -1,5 +1,5 @@
 {
-    "help": "**Bantuan Clockbot**\n\nClockbot menampilkan tanggal dan waktu saat ini sebagai status/presensi.\n\n**Perintah:**\n\n- `!time` — Tampilkan tanggal dan waktu saat ini di obrolan.\n- `!sun` — Cari waktu terbit dan terbenam matahari saat ini untuk lokasi Anda.\n\n**Kode sumber & dukungan:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Bantuan Clockbot**\n\nClockbot menampilkan tanggal dan waktu saat ini sebagai status/presensi.\n\n**Perintah:**\n\n- `!time` — Tampilkan tanggal dan waktu saat ini di obrolan.\n- `!sun` — Cari waktu terbit dan terbenam matahari saat ini untuk lokasi Anda.\n\n**Kode sumber & dukungan:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Terbit",
     "sunset": "Terbenam",
     "daylight": "Cahaya Hari",

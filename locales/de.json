@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot Hilfe**\n\nClockbot zeigt das aktuelle Datum und die Uhrzeit als seinen Status an.\n\n**Befehle:**\n\n- `!time` — Zeige das aktuelle Datum und die Uhrzeit im Chat an.\n- `!sun` — Suche die aktuellen Sonnenaufgangs- und Sonnenuntergangszeiten für deinen Standort.\n\n**Quellcode & Unterstützung:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Hilfe**\n\nClockbot zeigt das aktuelle Datum und die Uhrzeit als seinen Status an.\n\n**Befehle:**\n\n- `!time` — Zeige das aktuelle Datum und die Uhrzeit im Chat an.\n- `!sun` — Suche die aktuellen Sonnenaufgangs- und Sonnenuntergangszeiten für deinen Standort.\n\n**Quellcode & Unterstützung:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Sonnenaufgang",
     "sunset": "Sonnenuntergang",
     "daylight": "Tageslicht",

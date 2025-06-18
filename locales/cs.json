@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot Nápověda**\n\nClockbot zobrazuje aktuální datum a čas jako svůj stav/přítomnost.\n\n**Příkazy:**\n\n- `!time` — Zobrazit aktuální datum a čas v chatu.\n- `!sun` — Zjistit aktuální časy východu a západu slunce pro vaši lokalitu.\n\n**Zdrojový kód a podpora:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Nápověda**\n\nClockbot zobrazuje aktuální datum a čas jako svůj stav/přítomnost.\n\n**Příkazy:**\n\n- `!time` — Zobrazit aktuální datum a čas v chatu.\n- `!sun` — Zjistit aktuální časy východu a západu slunce pro vaši lokalitu.\n\n**Zdrojový kód a podpora:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Východ slunce",
     "sunset": "Západ slunce",
     "daylight": "Den",

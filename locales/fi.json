@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot Apua**\n\nClockbot näyttää nykyisen päivämäärän ja kellonajan läsnäolossaan/tilassaan.\n\n**Komennot:**\n\n- `!time` — Näytä nykyinen päivämäärä ja kellonaika chatissa.\n- `!sun` — Tarkista nykyiset auringonnousu- ja auringonlaskuajat sijaintisi mukaan.\n\n**Lähdekoodi & tuki:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Apua**\n\nClockbot näyttää nykyisen päivämäärän ja kellonajan läsnäolossaan/tilassaan.\n\n**Komennot:**\n\n- `!time` — Näytä nykyinen päivämäärä ja kellonaika chatissa.\n- `!sun` — Tarkista nykyiset auringonnousu- ja auringonlaskuajat sijaintisi mukaan.\n\n**Lähdekoodi & tuki:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Auringonnousu",
     "sunset": "Auringonlasku",
     "daylight": "Päivänvalo",

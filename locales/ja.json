@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot ヘルプ**\n\nClockbot は現在の日付と時刻をそのプレゼンス/ステータスとして表示します。\n\n**コマンド:**\n\n- `!time` — チャットに現在の日付と時刻を表示します。\n- `!sun` — あなたの場所の現在の日の出と日の入りの時刻を調べます。\n\n**ソースコードとサポート:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot ヘルプ**\n\nClockbot は現在の日付と時刻をそのプレゼンス/ステータスとして表示します。\n\n**コマンド:**\n\n- `!time` — チャットに現在の日付と時刻を表示します。\n- `!sun` — あなたの場所の現在の日の出と日の入りの時刻を調べます。\n\n**ソースコードとサポート:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "日の出",
     "sunset": "日の入り",
     "daylight": "日中",

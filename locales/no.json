@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot Hjelp**\n\nClockbot viser den nåværende datoen og tiden som sin tilstedeværelse/status.\n\n**Kommandoer:**\n\n- `!time` — Vis den nåværende datoen og tiden i chatten.\n- `!sun` — Se opp de nåværende soloppgangs- og solnedgangstidene for din plassering.\n\n**Kildekode & støtte:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Hjelp**\n\nClockbot viser den nåværende datoen og tiden som sin tilstedeværelse/status.\n\n**Kommandoer:**\n\n- `!time` — Vis den nåværende datoen og tiden i chatten.\n- `!sun` — Se opp de nåværende soloppgangs- og solnedgangstidene for din plassering.\n\n**Kildekode & støtte:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Soloppgang",
     "sunset": "Solnedgang",
     "daylight": "Dagslys",

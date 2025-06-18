@@ -1,5 +1,5 @@
 {
-    "help": "**Pomoc Clockbota**\n\nClockbot wyświetla aktualną datę i godzinę jako swój status.\n\n**Polecenia:**\n\n- `!time` — Pokaż aktualną datę i godzinę na czacie.\n- `!sun` — Sprawdź aktualne czasy wschodu i zachodu słońca dla swojej lokalizacji.\n\n**Kod źródłowy i wsparcie:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Pomoc Clockbota**\n\nClockbot wyświetla aktualną datę i godzinę jako swój status.\n\n**Polecenia:**\n\n- `!time` — Pokaż aktualną datę i godzinę na czacie.\n- `!sun` — Sprawdź aktualne czasy wschodu i zachodu słońca dla swojej lokalizacji.\n\n**Kod źródłowy i wsparcie:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Wschód słońca",
     "sunset": "Zachód słońca",
     "daylight": "Światło dzienne",

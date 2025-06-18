@@ -1,5 +1,5 @@
 {
-    "help": "**Clockbot Pomoć**\n\nClockbot prikazuje trenutni datum i vrijeme kao svoj status.\n\n**Komande:**\n\n- `!time` — Prikaži trenutni datum i vrijeme u chatu.\n- `!sun` — Potraži trenutne vrijeme izlaska i zalaska sunca za tvoju lokaciju.\n\n**Izvorni kod i podrška:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Clockbot Pomoć**\n\nClockbot prikazuje trenutni datum i vrijeme kao svoj status.\n\n**Komande:**\n\n- `!time` — Prikaži trenutni datum i vrijeme u chatu.\n- `!sun` — Potraži trenutne vrijeme izlaska i zalaska sunca za tvoju lokaciju.\n\n**Izvorni kod i podrška:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Izlazak sunca",
     "sunset": "Zalazak sunca",
     "daylight": "Dnevno svjetlo",

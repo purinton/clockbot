@@ -1,5 +1,5 @@
 {
-    "help": "**Ajutor Clockbot**\n\nClockbot afișează data și ora curentă ca prezență/status.\n\n**Comenzi:**\n\n- `!time` — Afișează data și ora curentă în chat.\n- `!sun` — Caută orele curente de răsărit și apus pentru locația ta.\n\n**Cod sursă & suport:**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Ajutor Clockbot**\n\nClockbot afișează data și ora curentă ca prezență/status.\n\n**Comenzi:**\n\n- `!time` — Afișează data și ora curentă în chat.\n- `!sun` — Caută orele curente de răsărit și apus pentru locația ta.\n\n**Cod sursă & suport:**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Răsărit",
     "sunset": "Apus",
     "daylight": "Lumina zilei",

@@ -1,5 +1,5 @@
 {
-    "help": "**Aide de Clockbot**\n\nClockbot affiche la date et l'heure actuelles comme sa présence/statut.\n\n**Commandes :**\n\n- `!time` — Afficher la date et l'heure actuelles dans le chat.\n- `!sun` — Rechercher les heures de lever et de coucher du soleil pour votre emplacement.\n\n**Code source & support :**\n<https://github.com/rpurinton/clockbots>\n",
+    "help": "**Aide de Clockbot**\n\nClockbot affiche la date et l'heure actuelles comme sa présence/statut.\n\n**Commandes :**\n\n- `!time` — Afficher la date et l'heure actuelles dans le chat.\n- `!sun` — Rechercher les heures de lever et de coucher du soleil pour votre emplacement.\n\n**Code source & support :**\n<https://github.com/purinton/clockbot>\n<https://discord.gg/QSBxQnX7PF>\n",
     "sunrise": "Lever du soleil",
     "sunset": "Coucher du soleil",
     "daylight": "Lumière du jour",
