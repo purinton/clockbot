@@ -3,6 +3,7 @@ import { getSun } from '@purinton/openweathermap';
 
 // Command handler for /sun and !sun 
 export default async function ({ log, msg }, interaction, {
+  timezone = process.env.TIMEZONE || 'UTC',
   latitude = process.env.LOCATION_LAT,
   longitude = process.env.LOCATION_LON,
   getSunFn = getSun,
@@ -20,8 +21,9 @@ export default async function ({ log, msg }, interaction, {
       return;
     }
     // data: {sunriseUtc, sunsetUtc, sunriseLocal, sunsetLocal, offset}
-    const sunriseStr = moment.unix(data.sunriseLocal).format('HH:mm');
-    const sunsetStr = moment.unix(data.sunsetLocal).format('HH:mm');
+    // Format using the passed timezone
+    const sunriseStr = moment.unix(data.sunriseUtc).tz(timezone).format('HH:mm');
+    const sunsetStr = moment.unix(data.sunsetUtc).tz(timezone).format('HH:mm');
     const sunriseDiscord = `<t:${data.sunriseUtc}:R>`;
     const sunsetDiscord = `<t:${data.sunsetUtc}:R>`;
     const daylightSeconds = data.sunsetLocal - data.sunriseLocal;

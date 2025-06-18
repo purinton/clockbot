@@ -18,8 +18,8 @@ describe('sun command handler', () => {
       return fallback;
     });
     mockGetSun = jest.fn().mockResolvedValue({
-      sunriseUtc: 1717401600, // 2024-06-03T04:00:00Z
-      sunsetUtc: 1717452000,  // 2024-06-03T18:00:00Z
+      sunriseUtc: 1717401600, // 2024-06-03T08:00:00Z
+      sunsetUtc: 1717452000,  // 2024-06-03T22:00:00Z
       sunriseLocal: 1717401600, // local epoch seconds
       sunsetLocal: 1717452000,  // local epoch seconds
       offset: 0
@@ -30,14 +30,14 @@ describe('sun command handler', () => {
     await sunHandler(
       { log: mockLogger, msg: mockMsg },
       interaction,
-      { latitude: '1', longitude: '2', getSunFn: mockGetSun }
+      { timezone: 'UTC', latitude: '1', longitude: '2', getSunFn: mockGetSun }
     );
     expect(mockGetSun).toHaveBeenCalledWith('1', '2');
     expect(interaction.reply).toHaveBeenCalledWith(
-      expect.stringContaining('Sunrise: 04:00')
+      expect.stringContaining('Sunrise: 08:00')
     );
     expect(interaction.reply).toHaveBeenCalledWith(
-      expect.stringContaining('Sunset: 18:00')
+      expect.stringContaining('Sunset: 22:00')
     );
     expect(interaction.reply).toHaveBeenCalledWith(
       expect.stringContaining('Daylight: 14h 0m')
@@ -49,7 +49,7 @@ describe('sun command handler', () => {
     await sunHandler(
       { log: mockLogger, msg: mockMsg },
       interaction,
-      { latitude: '1', longitude: '2', getSunFn: mockGetSun }
+      { timezone: 'UTC', latitude: '1', longitude: '2', getSunFn: mockGetSun }
     );
     expect(interaction.reply).toHaveBeenCalledWith('Sorry, an error occured.');
     expect(mockLogger.error).toHaveBeenCalledWith('Failed to respond to /sun:', expect.any(Error));
@@ -60,7 +60,7 @@ describe('sun command handler', () => {
     await sunHandler(
       { log: mockLogger, msg: mockMsg },
       interaction,
-      { latitude: '1', longitude: '2', getSunFn: mockGetSun }
+      { timezone: 'UTC', latitude: '1', longitude: '2', getSunFn: mockGetSun }
     );
     expect(mockLogger.error).toHaveBeenCalledWith('No sun data returned.');
     expect(interaction.reply).toHaveBeenCalledWith('Sorry, an error occured.');
@@ -70,7 +70,7 @@ describe('sun command handler', () => {
     await sunHandler(
       { log: mockLogger, msg: mockMsg },
       interaction,
-      { latitude: '', longitude: '', getSunFn: mockGetSun }
+      { timezone: 'UTC', latitude: '', longitude: '', getSunFn: mockGetSun }
     );
     expect(mockLogger.error).toHaveBeenCalledWith('Location not configured.');
     expect(interaction.reply).not.toHaveBeenCalled();
