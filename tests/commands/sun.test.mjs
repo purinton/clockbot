@@ -31,10 +31,10 @@ describe('sun command handler', () => {
     );
     expect(mockGetSun).toHaveBeenCalledWith('1', '2');
     expect(interaction.reply).toHaveBeenCalledWith(
-      expect.stringContaining('Sunrise: 08:00')
+      expect.stringContaining('Sunrise: 04:00')
     );
     expect(interaction.reply).toHaveBeenCalledWith(
-      expect.stringContaining('Sunset: 22:00')
+      expect.stringContaining('Sunset: 18:00')
     );
     expect(interaction.reply).toHaveBeenCalledWith(
       expect.stringContaining('Daylight: 14h 0m')
