@@ -34,9 +34,9 @@
         ]
     },
     "dependencies": {
-        "@purinton/common": "^1.0.15",
-        "@purinton/discord": "^1.0.5",
         "@purinton/openweathermap": "^1.0.3",
+        "@purinton/common": "^1.0.16",
+        "@purinton/discord": "^1.0.6",
         "dotenv": "^16.5.0"
     }
 }
