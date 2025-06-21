@@ -1,7 +1,7 @@
 {
     "name": "@purinton/clockbot",
     "type": "module",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "A modern, multi-language Discord app for displaying the current time and sunrise/sunset, with extensible commands and event handlers.",
     "main": "clockbot.mjs",
     "scripts": {
@@ -35,7 +35,7 @@
     },
     "homepage": "https://github.com/purinton/clockbot#readme",
     "devDependencies": {
-        "jest": "^30.0.1"
+        "jest": "^30.0.2"
     },
     "jest": {
         "testEnvironment": "node",
@@ -47,7 +47,7 @@
     },
     "dependencies": {
         "@purinton/common": "^1.0.16",
-        "@purinton/discord": "^1.0.6",
+        "@purinton/discord": "^1.0.11",
         "@purinton/openweathermap": "^1.0.4",
         "dotenv": "^16.5.0",
         "moment-timezone": "^0.6.0"
