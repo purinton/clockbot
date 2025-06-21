@@ -22,24 +22,24 @@ export function getOffsetStr(date, timezone = process.env.TIMEZONE || 'UTC') {
 
 /**
  * Formats a date as a full, human-readable string with timezone abbreviation.
- * Example: 'Friday May 30th, 2025 16:18 CEST'
+ * Example: 'Friday May 30th, 2025 4:18 PM CEST'
  * @param {Date|string|number} date - The date to format.
  * @param {string} [timezone=process.env.TIMEZONE || 'UTC'] - The IANA timezone name.
  * @returns {string} Formatted date string.
  */
 export function formatFullTime(date, timezone = process.env.TIMEZONE || 'UTC') {
   const m = moment(date).tz(timezone);
-  return m.format('dddd MMMM Do, YYYY HH:mm z');
+  return m.format('dddd MMMM Do, YYYY h:mm A z');
 }
 
 /**
  * Formats a date as a short string with timezone abbreviation.
- * Example: 'Fri 5/30 16:18 CEST'
+ * Example: 'Fri 5/30 4:18 PM CEST'
  * @param {Date|string|number} date - The date to format.
  * @param {string} [timezone=process.env.TIMEZONE || 'UTC'] - The IANA timezone name.
  * @returns {string} Formatted date string.
  */
 export function formatShortTime(date, timezone = process.env.TIMEZONE || 'UTC') {
   const m = moment(date).tz(timezone);
-  return m.format('ddd M/D HH:mm z');
+  return m.format('ddd M/D h:mm A z');
 }
