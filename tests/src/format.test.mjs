@@ -17,18 +17,18 @@ describe('getOffsetStr', () => {
 
 describe('formatFullTime', () => {
   test('formats full time string in UTC', () => {
-    expect(formatFullTime('2025-06-03T12:00:00Z', 'UTC')).toMatch(/Tuesday June 3rd, 2025 12:00 UTC/);
+    expect(formatFullTime('2025-06-03T12:00:00Z', 'UTC')).toMatch(/Tuesday June 3rd, 2025 12:00 PM UTC/);
   });
   test('formats full time string in Europe/Berlin', () => {
-    expect(formatFullTime('2025-06-03T12:00:00Z', 'Europe/Berlin')).toMatch(/Tuesday June 3rd, 2025 14:00 CEST/);
+    expect(formatFullTime('2025-06-03T12:00:00Z', 'Europe/Berlin')).toMatch(/Tuesday June 3rd, 2025 2:00 PM CEST/);
   });
 });
 
 describe('formatShortTime', () => {
   test('formats short time string in UTC', () => {
-    expect(formatShortTime('2025-06-03T12:00:00Z', 'UTC')).toMatch(/Tue 6\/3 12:00 UTC/);
+    expect(formatShortTime('2025-06-03T12:00:00Z', 'UTC')).toMatch(/Tue 6\/3 12:00 PM UTC/);
   });
   test('formats short time string in Asia/Tokyo', () => {
-    expect(formatShortTime('2025-06-03T12:00:00Z', 'Asia/Tokyo')).toMatch(/Tue 6\/3 21:00 JST/);
+    expect(formatShortTime('2025-06-03T12:00:00Z', 'Asia/Tokyo')).toMatch(/Tue 6\/3 9:00 PM JST/);
   });
 });
